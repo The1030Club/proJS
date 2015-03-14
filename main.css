@@ -1,0 +1,12 @@
+#outer {
+    margin: 0 auto;
+    background: black;
+    width: 500px;
+    height: 500px;
+}
+
+#inner {
+    background: red;
+    width: 250px;
+    height: 250px;
+}
