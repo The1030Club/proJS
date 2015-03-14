@@ -1,0 +1,11 @@
+Variables -- placeholder for a data type
+    camelCase = variable
+
+Constants -- Values are restricted from change, immutable
+    ALL_CAPS_SYNTAX = constant
+
+Privates -- "voyeur" variables
+    _thisIsPrivate = private
+
+
+
