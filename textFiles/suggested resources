@@ -10,3 +10,6 @@
 
 // JavaScript Event Listeners
     MDN -- https://developer.mozilla.org/en-US/docs/Web/Events
+
+// How the eventListeners "bubble"
+    w3 -- http://www.w3.org/TR/DOM-Level-3-Events/#event-flow
