@@ -1,12 +1,12 @@
 #outer {
     margin: 0 auto;
-    background: black;
+    background: purple;
     width: 500px;
     height: 500px;
 }
 
 #inner {
-    background: red;
+    background: mediumpurple;
     width: 250px;
     height: 250px;
 }

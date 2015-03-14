@@ -20,10 +20,15 @@ var innerEl = query.id('inner');
 
 function alertClicked(event) {
     console.log(event);
-    console.log('the red shit is clicked');
 }
 
-outerEl.addEventListener('click', alertClicked)
+function stopBubbling(event) {
+    event.stopPropagation();
+    alertClicked(event)
+}
+
+outerEl.addEventListener('click', alertClicked);
+innerEl.addEventListener('click', stopBubbling);
 
 
 
