@@ -9,3 +9,15 @@ Privates -- "voyeur" variables
 
 
 
+How to push make a repo in git
+1- git init
+2- git add .
+3- git commit -m "first commit"
+4- git remote add origin https://github.com/yadayda (find this on github)
+5- git push -u origin master
+
+How to update a repo on git
+1- git status // checks the changes
+2- git add .
+3- git commit -m "mandatory comment"
+4- git push
