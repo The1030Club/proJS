@@ -1,0 +1,43 @@
+.wrapper {
+    margin: auto;
+    display: block;
+}
+
+.card {
+    height: 175px;
+    width: 9%;
+    margin: .5%;
+    display: inline-block;
+    float: left;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 1%;
+}
+
+.diamonds,
+.hearts {
+    background-color: red;
+    color: white;
+}
+
+.spades,
+.clubs {
+    background-color: black;
+    color: white;
+}
+
+.spades {
+
+}
+
+.clubs {
+
+}
+
+.hearts:before {
+    content: '\10086';
+}
+
+.diamonds {
+
+}
