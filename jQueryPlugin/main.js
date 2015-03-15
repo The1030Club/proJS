@@ -3,5 +3,5 @@
  */
 console.log('Booyah');
 
-$('.cards').blackjack();
+$('.blackjack').blackjack();
 

@@ -3,6 +3,11 @@
     display: block;
 }
 
+.hand,
+.deck {
+    overflow: hidden;
+}
+
 .card {
     height: 175px;
     width: 9%;
@@ -26,18 +31,22 @@
     color: white;
 }
 
-.spades {
-
+.spades:before,
+.spades:after {
+    content: '\';
 }
 
-.clubs {
-
+.clubs:before,
+.clubs:after {
+    content: '\';
 }
 
-.hearts:before {
-    content: '\10086';
+.hearts:before,
+.hearts:after {
+    content: '\2665';
 }
 
-.diamonds {
-
+.diamonds:before,
+.diamonds:after {
+    content: '\';
 }

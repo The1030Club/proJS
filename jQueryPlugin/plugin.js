@@ -69,6 +69,7 @@
         this._defaults = defaults;
         this._name = pluginName;
         this.deck = makeDeck();
+        this.hand = [];
         this.init();
     }
 
@@ -76,15 +77,36 @@
     $.extend(Plugin.prototype, {
         init: function () {
             this.shuffle();
-            //this.displayCard( this.deck[0] );
             this.displayDeck();
+
+            var shuffleHTML = '<button class="shuffle">Shuffle that shit...</button>';
+            this.$element.find('.controls').append(shuffleHTML);
+            this.$element.find('.shuffle').on('click', function() {
+                this.shuffle();
+                this.displayDeck();
+            }.bind(this));
+
+            this.deal(5);
+            this.displayHand();
         },
 
         shuffle : function () {
             this.deck = shuffle( this.deck );
         },
 
-        displayCard : function(card){
+        deal : function(howMany) {
+
+            if (howMany > this.deck.length) {
+                howMany = this.deck.length;
+            }
+
+            for (var i = 0; i < howMany; i++) {
+                this.hand.push(this.deck.pop());
+            }
+            this.displayDeck();
+        },
+
+        displayCard : function(card, selector){
             var rank = card.rank;
             var suit = card.suit;
             var cardHTML =
@@ -94,11 +116,22 @@
                 '<span class="suit">' + suit + '<span>' +
                 '</div>';
 
-            this.$element.append(cardHTML);
+            this.$element.find(selector).append(cardHTML);
+        },
+
+        displayCards : function(cards, selector) {
+            this.$element.find(selector).empty();
+            cards.forEach(function(card){
+                this.displayCard(card, selector);
+            }.bind(this));
         },
 
         displayDeck : function () {
-            this.deck.forEach(this.displayCard.bind(this));
+            this.displayCards(this.deck, '.deck');
+        },
+
+        displayHand : function () {
+            this.displayCards(this.hand, '.hand');
         }
 
     });

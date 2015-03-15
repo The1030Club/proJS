@@ -18,5 +18,6 @@
     RactiveJS -- http://www.ractivejs.org/
     BackboneJS --
     EmberJS --
-    AngularJS --
+    AngularJS -- angularjs.org
+        ng-inspector -- chrome inspector for what AngularJS is actually doing in the browser
     KnockoutJS -- http://knockoutjs.com/
