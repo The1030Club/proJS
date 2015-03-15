@@ -27,3 +27,4 @@ KISS Principle
     Smaller functions means smaller bugs
     Easier to test discrete functionality
 
+Function Hoisting -- How functions are available in there current scope
