@@ -12,11 +12,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/notes" afterPath="" />
       <change type="DELETED" beforePath="$USER_HOME$/WebstormProjects/js-test/.idea/misc.xml" afterPath="" />
       <change type="DELETED" beforePath="$USER_HOME$/WebstormProjects/js-test/readme.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQueryPlugin/index.html" afterPath="$PROJECT_DIR$/jQueryPlugin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQueryPlugin/main.js" afterPath="$PROJECT_DIR$/jQueryPlugin/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQueryPlugin/plugin.js" afterPath="$PROJECT_DIR$/jQueryPlugin/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQueryPlugin/styles.css" afterPath="$PROJECT_DIR$/jQueryPlugin/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/textFiles/suggested resources" afterPath="$PROJECT_DIR$/textFiles/suggested resources" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="professionalJavaScript.iws" />
@@ -74,7 +69,7 @@
       <file leaf-file-name="plugin.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQueryPlugin/plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35267857" vertical-offset="1608" max-vertical-offset="2310">
+            <state vertical-scroll-proportion="0.632" vertical-offset="1608" max-vertical-offset="2310">
               <caret line="123" column="12" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
               <folding />
             </state>
@@ -306,10 +301,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39337748" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39337748" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -435,7 +430,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jQueryPlugin/plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35267857" vertical-offset="1608" max-vertical-offset="2310">
+        <state vertical-scroll-proportion="0.632" vertical-offset="1608" max-vertical-offset="2310">
           <caret line="123" column="12" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
           <folding />
         </state>
